@@ -12,3 +12,6 @@ RUN npm install
 
 # Define el comando para iniciar la aplicación
 CMD ["npm", "start"]
+
+# Cambio de prueba para el Layerfile
+RUN echo "Este es un cambio en el Layerfile desde GitHub" >> /var/log/layerfile_change.log
